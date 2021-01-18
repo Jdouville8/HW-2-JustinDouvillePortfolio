@@ -47,8 +47,12 @@
 
 .port-pic-style1 {
   width: 250px;
-  padding: 20px 20px 5px 20px;
+  padding: 20px 10px 5px 20px;
   float: left;
+}
+
+.form-text-style {
+  font-size: 24px;
 }
 
 @media only screen and (max-width: 400px) {
