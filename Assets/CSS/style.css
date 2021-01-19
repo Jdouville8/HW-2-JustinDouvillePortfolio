@@ -1,3 +1,11 @@
+body {
+  background-image: url(../my-site-images/Beach\ texture.svg);
+}
+
+hr {
+  width: auto;
+}
+
 .sc-1 {
   color: white;
 }
