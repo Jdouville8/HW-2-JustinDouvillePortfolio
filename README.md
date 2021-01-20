@@ -12,7 +12,11 @@ To create a website from scratch using Bootstrap, HTML and CSS. This website is 
 
 # Features
 
-Nav Bar contents - A main page reached by clicking on my name with some information about me and my goals as a programmer - A portfolio page displaying cover art for music releases - A contact page that allows you to submit information
+Nav Bar contents
+
+- A main page reached by clicking on my name with some information about me and my goals as a programmer
+- A portfolio page displaying cover art for music releases
+- A contact page for submitting information
 
 # Credits
 

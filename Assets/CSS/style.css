@@ -32,6 +32,7 @@ hr {
   width: 50%;
   padding: 15px 2px 15px 20px;
   display: flexbox;
+  opacity: 99.7%;
 }
 
 .about-me-cont h1 {
@@ -46,6 +47,7 @@ hr {
   width: 35%;
   padding: 15px 2px 15px 20px;
   display: flexbox;
+  opacity: 99.7%;
 }
 
 .port-cont h1 {
