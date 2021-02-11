@@ -1,66 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/CSS" href="./Assets/CSS/style.css">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/CSS" href="./Assets/CSS/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Justin Douville</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-      <!-- Navigation Bar -->
-      <nav class="navbar navbar-expand-sm navbar-light bg-success">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Justin Douville</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+    <!-- Form for Contacting -->
+    <div>
+      <!-- <div class="row">
+        <div class="row-sm-12"></div>
+      </div> -->
+      <div class="row">
+        <div class="col-sm-6">
+        <div class="card p-4 m-4">
+          <div>
+            <h1 class="card-title">Contact</h1>
+            <hr />
+          </div>
+          <section>
+            <div class="row form-text-style">
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Example@email.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  rows="3"
+                  placeholder="What can I do ya for?"
+                ></textarea>
+              </div>
+              <div>
+                <button type="button" class="btn btn-success">Submit</button>
+              </div>
+            </div>
+          </section>
+        </div>
+        </div>
+        <!-- Contact Me -->
+        <div class="col-sm-6">
+          <div class="card p-4 m-4">
+            <div>
+              <h1 class="card-title">Contact Me</h1>
+              <hr />
+            </div>
+            <section>
+              <div class="row form-text-style">
+                <div class="mb-3">
+                  <label class="form-label">Justin Douville</label>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label"><strong>Email: </strong></label>
+                  <br>
+                  <label class="form-label">Jdouville8@gmail.com</label>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label"><strong>Phone Number:</strong></label>
+                  <br>
+                  <label class="form-label">(973) - 479 - 5236</label>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
-      </nav>  
-    
-        <!-- Form for Contacting -->
-        <div>
-            <div class="row">
-              <div class="row-sm-12"></div>
-            </div>
-            <div class="card port-cont p-4">
-                <div>
-                    <h1 class="card-title">Contact</h1>
-                    <hr/>
-                </div>
-              <section>
-                <div class="row form-text-style">
-                    <div class="mb-3">
-                        <label class="form-label">Name</label>
-                        <input type="text" class="form-control" placeholder="Your Name">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Email</label> 
-                        <input type="email" class="form-control" placeholder="Example@email.com">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Message</label>
-                        <textarea class="form-control" rows="3" placeholder="What can I do ya for?"></textarea>
-                    </div>
-                    <div>
-                        <button type="button" class="btn btn-success">Submit</button>
-                    </div>
-                </div>
-              </section>
-           </div>
-          </div>
+      </div>
 
-</body>
+    </div>
+  </body>
 </html>

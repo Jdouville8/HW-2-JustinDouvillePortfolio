@@ -46,16 +46,16 @@ hr {
   color: purple;
 }
 
-.port-cont {
+/* .port-cont {
   background-color: white;
   margin-left: 30px;
   margin-right: 20%;
   margin-top: 10%;
-  width: 35%;
+
   padding: 15px 2px 15px 20px;
-  display: flexbox;
+
   opacity: 99.7%;
-}
+} */
 
 .port-cont h1 {
   font-family: "Hachi Maru Pop", cursive;
